@@ -1,0 +1,17 @@
+.textContainer button {
+    height: 40px;
+}
+
+.action {
+    width: 75%;
+}
+
+.num {
+    width: 25%;
+}
+
+.operator {
+    width: 25%;
+    color: white;
+    background: crimson;
+}

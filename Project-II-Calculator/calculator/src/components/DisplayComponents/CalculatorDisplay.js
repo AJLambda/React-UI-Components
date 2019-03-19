@@ -8,7 +8,7 @@ import './Display.css';
 
 const CalculatorDisplay = (props) => {
     return (
-        <div className={props.displayStyle}>{props.text}</div>
+        <button className={props.displayStyle}>{props.text}</button>
     );
 };
 
