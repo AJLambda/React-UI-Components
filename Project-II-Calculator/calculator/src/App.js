@@ -3,14 +3,14 @@ import './App.css';
 
 import ActionButton from './components/ButtonComponents/ActionButton';
 import NumberButton from './components/ButtonComponents/NumberButton';
-import CalulatorDisplay from './components/DisplayComponents/CalculatorDisplay';
+import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay';
 
 const App = () => {
   return (
     <div className = "mainContainer">
 
         <div className = "div1">
-          <CalulatorDisplay displayStyle = {'display'} text = {'0'} />
+          <CalculatorDisplay displayStyle = {'display'} text = {'0'} />
         </div>
 
       <section className = "textContainer">
@@ -42,7 +42,7 @@ const App = () => {
         </div>
 
         <div className = "div6">
-          <ActionButton actionButton = {'action'} text = {'0'} /> 
+          <NumberButton buttonStyle = {'num'} text = {'0'} /> 
           <NumberButton buttonStyle = {'operator'} text = {'='} />
         </div>
 
