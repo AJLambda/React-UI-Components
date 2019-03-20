@@ -1,0 +1,29 @@
+/* Button Styling*/
+
+.textContainer button {
+    height: 60px;
+    font-size: 25px;
+    border: 1px solid gray;
+}
+
+.action {
+    width: 75%;
+    background: white;
+}
+
+.num {
+    width: 25%;
+    background: white;
+    font-weight: bold;
+}
+
+.div6 .num{
+    width: 75%;
+}
+
+.operator {
+    width: 25%;
+    color: white;
+    background: rgb(180, 5, 40);
+    font-size: 40px;
+}
